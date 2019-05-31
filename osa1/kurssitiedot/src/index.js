@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 function sum(a, b, c) {
-  return a + b + c
+  return a+b+c
 }
 
 const Header = (props) => {
