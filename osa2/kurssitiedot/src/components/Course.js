@@ -22,14 +22,6 @@ const Content = (props) => props.parts.map(part =>
   </li>
 )
   
-const Part = (props) => {
-  return (
-    <div>
-      <p>{props.part.name} {props.part.exercises}</p>
-    </div>
-  )
-}
-
 const Course = (props) => {
   const course = props.course
   return (
