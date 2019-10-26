@@ -6,7 +6,7 @@ function pyoristaja(luku, tarkkuus) {
     return Math.round(luku * factor) / factor;
 }
 
-function keskiarvo(a, b, c) {
+function keskiarvo(a,b,c) {
     return pyoristaja((a - c) / (a + b + c), 1)
 }
 
