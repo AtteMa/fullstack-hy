@@ -18,7 +18,7 @@ const Header = (props) => {
 
 const Content = (props) => props.parts.map(part =>
   <li key={part.id}>
-    {part.name}  {part.exercises}
+    {part.name} {part.exercises}
   </li>
 )
   
